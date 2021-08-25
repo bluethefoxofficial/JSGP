@@ -26,6 +26,6 @@ currently not but you can also get json data and have it parsed automatically wi
 jsgp = new JSGP();
 
 console.log(
-    jsgp.getrequest("example.com/api/", { "Hello": "world" })
+    jsgp.getrequest("example.com/api/", "hello=world&test=2")
 );
 ```

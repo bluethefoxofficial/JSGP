@@ -1,14 +1,14 @@
 class JSGP {
 
     //get request with response.
-    getrequest(URI, parameters) {
-        fetch(url).then(function(response) {
-            return response.json();
-        }).then(function(data) {
-            console.log(data);
-        }).catch(function() {
-            console.log("Booo");
-        });
+    getrequest(URL, parameters) {
+        xhttp.open("GET", `demo_get2.asp?${parameters}`);
+
+        xhttp.onload = function() {
+
+            return this;
+        }
+        xhttp.send();
     }
 
     //get json response with parsed data.
@@ -16,7 +16,7 @@ class JSGP {
         fetch(URI).then(function(response) {
             return response.json();
         }).then(function(data) {
-            console.log(data);
+            return data;
         }).catch(function(error) {
             return error;
         });
