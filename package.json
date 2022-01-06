@@ -1,19 +1,16 @@
 {
-  "name": "jsgp",
-  "version": "0.0.1",
-  "description": "JSGP javascript getpost",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bluethefoxofficial/JSGP.git"
-  },
-  "author": "Bluethefox",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bluethefoxofficial/JSGP/issues"
-  },
-  "homepage": "https://github.com/bluethefoxofficial/JSGP#readme"
+    "name": "jsgetpost",
+    "version": "0.0.1",
+    "description": "JSGP javascript getpost",
+    "main": "JSGP.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bluethefoxofficial/JSGP.git"
+    },
+    "author": "Bluethefox",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bluethefoxofficial/JSGP/issues"
+    },
+    "homepage": "https://github.com/bluethefoxofficial/JSGP#readme"
 }
