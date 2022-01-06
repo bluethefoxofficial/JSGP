@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>JSGP example</title>
+    <style type="text/css">
+      * {
+        font-family: sans-serif;
+        color: white;
+      }
+      body {
+        background-color: #213087;
+      }
+    </style>
+    <script type="text/javascript" src="./src/jsgp.js"></script>
+    <script type="text/javascript">
+      var jsgp = new JSGP();
+
+      var output = jsgp.getjson("https://excenote.cf/api/");
+
+      output.on("json", function (data) {
+        console.log(data);
+      });
+      //jsgp on json console output data
+      jsgp.onload(function (data) {
+        console.log(jsgp.version());
+      });
+    </script>
+  </head>
+  <body>
+    <h1>JSGP example</h1>
+    <p>Open console to view the example as it outputs it to the console.</p>
+    <p>JSGP built for simplicity</p>
+
+    <p>Code example.</p>
+
+    <code> var jsgp = new JSGP(); console.log(jsgp.version()); </code>
+  </body>
+</html>
