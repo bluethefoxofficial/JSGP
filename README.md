@@ -1,4 +1,4 @@
-# JSGP (WORK IN PROGRESS DO NOT USE YET)
+# JSGP
 JSGP (Java Script Get Post) is a libary specilizing in simple Get Post requests with parmeters
 
 
